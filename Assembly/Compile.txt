@@ -1,0 +1,21 @@
+How to Compile Assembly File
+
+First, You Should Install the Package
+
+apt-get install nasm -y
+
+Second, Create Assembly Atomic File.
+
+When Create the File, You must set the ".s" about extension
+
+Write And Save File, And Make the Object File use following command
+
+nams -f elf64 file.o [Atomic File]
+
+If You use x86 Processor, You should replace elf64 to elf
+
+Last, Linking
+
+ld -o [Program Name] [Object File]
+
+Finished
