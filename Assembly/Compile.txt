@@ -6,7 +6,7 @@ apt-get install nasm -y
 
 Second, Create Assembly Atomic File.
 
-When Create the File, You must set the ".s" about extension
+When Create the File, You must set the ".s" extension of file
 
 Write And Save File, And Make the Object File use following command
 
